@@ -68,7 +68,8 @@ def end_to_end(X1, X2, ys, mu1, mu2):
     plt.ylabel(f"$mu2$: {(mu2)}", fontsize=15)
     plt.title("Transformed Inputs: Linearly Seperable", fontsize=15)
     plt.legend()
-
+```
+```
     A = []
     for i, j in zip(from_1, from_2):
         temp = []
